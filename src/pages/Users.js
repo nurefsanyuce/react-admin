@@ -17,7 +17,7 @@ const Users = () => {
                   <li className="breadcrumb-item">
                     <a href="#">Home</a>
                   </li>
-                  <li className="breadcrumb-item active">Starter Page</li>
+                  <li className="breadcrumb-item active">murat</li>
                 </ol>
               </div>
             </div>
