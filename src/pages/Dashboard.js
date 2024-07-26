@@ -25,7 +25,7 @@ const Dashboard = () => {
         </div>
 
         <div className="content">
-          <div className="container-fluid">Nurefşan</div>
+          <div className="container-fluid">fvdfv</div>
         </div>
       </div>
     </PageLayout>
