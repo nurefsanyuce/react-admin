@@ -9,7 +9,15 @@ const PageLayout = ({ children }) => {
       <Nav />
 
       <Menu />
-      {children}
+      <div className="content-wrapper">
+        <div
+          className="container-fluid p-2"
+          style={{ height: "calc(100vh - 114px )" }}
+        >
+          {children}
+        </div>
+      </div>
+
       <Sidebar />
 
       <Footer />

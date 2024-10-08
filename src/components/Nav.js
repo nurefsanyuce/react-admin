@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Nav = () => {
   return (
     <nav className="main-header navbar navbar-expand navbar-white navbar-light">
@@ -8,14 +10,14 @@ const Nav = () => {
           </a>
         </li>
         <li className="nav-item d-none d-sm-inline-block">
-          <a href="index3.html" className="nav-link">
+          <Link to="/" className="nav-link">
             Home
-          </a>
+          </Link>
         </li>
         <li className="nav-item d-none d-sm-inline-block">
-          <a href="#" className="nav-link">
+          <Link to="/contact" className="nav-link">
             Contact
-          </a>
+          </Link>
         </li>
       </ul>
 
